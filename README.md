@@ -36,9 +36,13 @@ Stay in touch
 ---------------
 
 Visit our [official website](https://www.getpantheon.com/)
+
 Read the [Documentation](http://helpdesk.getpantheon.com/)
+
 Follow Pantheon on Twitter, [@pantheon_drupal](http://twitter.com/pantheon_drupal).
+
 Check out our [Blog](https://www.getpantheon.com/news)
+
 Keep track of the [System Status](http://status.getpantheon.com/)
 
 
