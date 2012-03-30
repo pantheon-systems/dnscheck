@@ -3,7 +3,7 @@
 
 The DNS Verfication Application is an Open Source example of an application running on [Pantheon](https://www.getpantheon.com/)
 
-Built on top of the Twitter Bootstrap the DNS application is a mini-webapp that helps customers check that their DNS is correctly setup. When you are ready to go live on Pantheon make sure you have read the [Going Live]()
+Built on top of the Twitter Bootstrap the DNS application is a mini-webapp that helps customers check that their DNS is correctly setup. When you are ready to go live on Pantheon make sure you have read the [Going Live](http://helpdesk.getpantheon.com/customer/portal/articles/361250-going-live)
 documentation so you can correctly configure your A record or CNAMEs to work properly.
 
 This project can be found at https://github.com/pantheon-systems/dnscheck
@@ -11,7 +11,7 @@ This project can be found at https://github.com/pantheon-systems/dnscheck
 Goals:
 -----------
 
-- Open-source example of non-Drupal PHP on Pantheon
+- Open-source example of non-Drupal PHP on Pantheon 
 - Help customers with ‘going live’
 
 
