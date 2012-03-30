@@ -1,0 +1,30 @@
+DNS Check Application
+
+1. Create the git repository
+2. Clone CakePHP from github
+3. Clone Bootsrap application
+4. Create new folder for the bootstrap
+5. Initialize git submodule to manage updates of the application.
+6. Initaialze git submodule for Cake
+7. Plan tag schedule with Nick
+8. Make the HTML views:
+    - Index page with form
+    - DNS information page
+9. Verify the Alpha name for "Talos"
+10. Import the bootstrap files to Talos
+11. Create Wiki for Talos
+12. Documentation and project Roadmap
+13. Nick needs to create the CNAME for the app
+14. Get Pantheon favicon
+15. Mobile compitible version - Droid, iOS, BB
+16. Baseline coding standards
+17. Upgrade paths and options
+18. Issue Queue on Github to manage tickets
+19.
+
+Code
+1. Validation rules for domains
+2. No JS for initial version
+3. Social sharing options
+4. PHP doc 
+   - Standard Tags

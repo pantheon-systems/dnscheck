@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pantheon DNS Check Application</title>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=""> </meta>
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+    </style>
+    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="../assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">Pantheon</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">Documentation</a></li>
+              <li><a href="#contact">Support</a></li>
+              <li><a href="#contact">Support</a></li>
+              <li><a href="#contact">Your Account</a></li>
+            </ul>
+            <p class="navbar-text pull-right">Logged in as <a href="#">timani</a></p>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container"> 
+        <div class="span12">
+          <div class="hero-unit">
+            <h1>Pantheon DNS Check Application</h1>
+            <p>Before you go Live, check to make sure your Pantheon DNS settings are correct</p>
+	    <form  class="well form-search" method="GET">
+     <input type="text" name="domain" placeholder="https://dnscheck.gotpantheon.com" size="90" class="span5" />
+	      <button class="btn btn-primary" type="submit">Check Domain&raquo;</button>
+	    </form> 
+
+	    <div class=""> 
+	      <div class="alert alert-success">
+		<a class="close" data-dismiss="alert">×</a>
+		<strong>Well done!</strong> Your domain is correctly configured!
+	      </div> 
+	    </div>
+
+	    <div class=""> 
+	      <div class="alert alert-error">
+		<a class="close" data-dismiss="alert">×</a>
+		<strong>Oh snap!</strong> There was an error in your domain's configuration!.
+	      </div>
+	    </div>
+
+	    <h2>HTTP Headers for - http://dnscheck.gotpantheon.com</h2>
+	    <table class="table table-bordered table-striped">
+              <colgroup>
+		<col class="span1">
+		<col class="span7">
+              </colgroup>
+              <thead>
+		<tr>
+		  <th>Tag</th>
+		  <th>Description</th>
+		</tr>
+              </thead>
+              <tbody>
+		<tr>
+		  <td>
+		    <code>&lt;I.P Address&gt;</code>
+		  </td>
+		  <td>
+		    127.1.1.0
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <code>&lt;CNAME&gt;</code>
+		  </td>
+		  <td>
+		    Container element for table header rows (<code>&lt;tr&gt;</code>) to label table columns
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <code>&lt;Domain Name&gt;</code>
+		  </td>
+		  <td>
+		    Container element for table rows (<code>&lt;tr&gt;</code>) in the body of the table
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <code>&lt;tr&gt;</code>
+		  </td>
+		  <td>
+		    Container element for a set of table cells (<code>&lt;td&gt;</code> or <code>&lt;th&gt;</code>) that appears on a single row
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+		    <code>&lt;td&gt;</code>
+		  </td>
+		  <td>
+		    Default table cell
+		  </td>
+		</tr>
+		<tr>
+		  <td>
+              <code>&lt;th&gt;</code>
+		  </td>
+		  <td>
+		    Special table cell for column (or row, depending on scope and placement) labels<br>
+		    Must be used within a <code>&lt;thead&gt;</code>
+		  </td>
+          </tr>
+		<tr>
+		  <td>
+		    <code>&lt;caption&gt;</code>
+		  </td>
+		  <td>
+		    Description or summary of what the table holds, especially useful for screen readers
+		  </td>
+		</tr>
+              </tbody>
+	    </table> <!--/table-->
+ 
+        </div><!--/span-->
+      </div><!--/row-->
+      
+      <hr>
+
+      <footer>
+        <p>&copy; Company 2012</p>
+      </footer>
+
+    </div><!--/.fluid-container-->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/bootstrap-transition.js"></script>
+    <script src="../assets/js/bootstrap-alert.js"></script>
+    <script src="../assets/js/bootstrap-modal.js"></script>
+    <script src="../assets/js/bootstrap-dropdown.js"></script>
+    <script src="../assets/js/bootstrap-scrollspy.js"></script>
+    <script src="../assets/js/bootstrap-tab.js"></script>
+    <script src="../assets/js/bootstrap-tooltip.js"></script>
+    <script src="../assets/js/bootstrap-popover.js"></script>
+    <script src="../assets/js/bootstrap-button.js"></script>
+    <script src="../assets/js/bootstrap-collapse.js"></script>
+    <script src="../assets/js/bootstrap-carousel.js"></script>
+    <script src="../assets/js/bootstrap-typeahead.js"></script>
+
+  </body>
+</html>
