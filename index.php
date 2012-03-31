@@ -103,7 +103,7 @@
             <h2 class="centered"><small>Before you go Live, check to make sure your PANTHEON DNS settings are correct</small></h2>
             <br />
 	    <form  class="well form-search form-horizontal centered" method="GET">
-              <h2 class="span1"> <small>https://</small></h2>
+              <h2 class="span1"> <small>http://</small></h2>
               <input type="text" name="hostname" id="hostname" placeholder="<?php print $site_url; ?>" size="90" class="span7 btn-large">
 	      <button type="submit" class="btn btn-primary btn-large ">Check Domain»</button>
 	    </form> 
