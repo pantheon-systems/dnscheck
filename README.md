@@ -1,6 +1,8 @@
 [PANTHEON DNS VERIFICATION APP](https://github.com/pantheon-systems/dnscheck)
 =================
 
+[![Deprecated](https://img.shields.io/badge/Pantheon-Deprecated-yellow?logo=pantheon&color=FFDC28)](https://pantheon.io/docs/oss-support-levels#deprecated)
+
 The DNS Verfication Application is an Open Source example of an application running on [Pantheon](https://www.getpantheon.com/)
 
 Built on top of the Twitter Bootstrap the DNS application is a mini-webapp that helps customers check that their DNS is correctly setup. When you are ready to go live on Pantheon make sure you have read the [Going Live](http://helpdesk.getpantheon.com/customer/portal/articles/361250-going-live)
